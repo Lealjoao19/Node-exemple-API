@@ -1,0 +1,23 @@
+{
+  "name": "node-exemple-api",
+  "version": "1.0.0",
+  "description": "Exemplo básico de criação de uma Api em Node utilizando o framework Express",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandro-SI/Node-exemple-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandro-SI/Node-exemple-API/issues"
+  },
+  "homepage": "https://github.com/leandro-SI/Node-exemple-API#readme"
+}
