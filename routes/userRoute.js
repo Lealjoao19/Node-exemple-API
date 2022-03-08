@@ -50,6 +50,14 @@ const userRoute = (app) => {
 
             res.status(200).send('OK')
         })
+        .delete((req, res) => {
+            const users = getUsers()
+
+            saveUser(users.filter(users => users.id !== req.params.id ))
+
+            res.status(200).send('Ok')
+
+        })
 }
 
 module.exports = userRoute
