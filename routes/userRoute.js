@@ -5,12 +5,14 @@ const filePath = join(__dirname, 'users.json')
 
 // ler usuários do arquivo .json
 const getUsers = () => {
-    const data = fs.existsSync(filePath) ? fs.readFileSync(filePath) : []
+    const data = fs.existsSync(filePath) 
+        ? fs.readFileSync(filePath) 
+        : users = []
 
     try {
         return JSON.parse(data)
     } catch (error) {
-        
+        return []
     }
 }
 
