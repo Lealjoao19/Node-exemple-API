@@ -6,7 +6,7 @@ Exemplo básico de criação de uma Api em Node utilizando o framework Express
 
 
 * Exemplo de endpoint para users:
-* 
+
 - Listar usuários (GET)
 - Criar Usuário (Post)
 - Modificar Uuário (PUT)
