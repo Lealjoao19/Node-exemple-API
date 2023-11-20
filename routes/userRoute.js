@@ -23,7 +23,7 @@ const userRoute = (app) => {
     app.route('/users/:id?')
         .get((req, res) => {
             const users = getUsers()
-
+            console.log(res.body)
             res.send({ users })
         })
         .post((req, res) => {
@@ -31,8 +31,8 @@ const userRoute = (app) => {
 
             users.push(req.body)
             saveUser(users)
-
-            res.status(201).send('OK')
+console.log(res.body)
+            res.status(201).send('OK post')
         })
         .put((req, res) => {
             const users = getUsers()
@@ -48,7 +48,7 @@ const userRoute = (app) => {
                 }
             }))
 
-            res.status(200).send('OK')
+            res.status(200).send('OKOk')
         })
         .delete((req, res) => {
             const users = getUsers()

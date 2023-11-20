@@ -1,1 +1,38 @@
-[]
+[
+	{
+		"id": 0,
+		"name": "João",
+		"email": "usuario@email.com",
+		"password": "senha123"
+	},
+	{
+		"id": 0,
+		"name": "Pedro",
+		"email": "usuario@email.com",
+		"password": "senha123"
+	},
+	{
+		"id": 0,
+		"name": "Castro",
+		"email": "Silva",
+		"password": "senha123"
+	},
+	{
+		"id": 0,
+		"name": "Diogo",
+		"email": "usuario@email.com",
+		"password": "senha123"
+	},
+	{
+		"id": 0,
+		"name": "Vasco",
+		"email": "usuario@email.com",
+		"password": "senha123"
+	},
+	{
+		"id": 0,
+		"name": "Rute",
+		"email": "usuario@email.com",
+		"password": "senha123"
+	}
+]
